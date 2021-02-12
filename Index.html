@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+       <meta charset="utf-8">
+       <title>Actividad Práctica Nº 4</title>
+       <link rel="stylesheet" href="css/estilos.css">
+   </head>
+    <body> 
+        <header>
+            <!--Aquí corresponde el HEADER-->
+            <h1>ATP TOUR</h1>
+        </header>
+        <main>  
+            <table border="1" width=600>
+                <caption> <i><b>Ranking ATP</i></b></caption>  
+                  <thead><!-- Encabezado de la tabla-->
+                      <tr>
+                        <th bgcolor="#008FFF"><font color="white">Ranking</font></th>
+                        <th bgcolor="#008FFF"><font color="white">Jugador</font></th>
+                        <th bgcolor="#008FFF"><font color="white">Puntos</font></th>
+                      </tr>
+                  </thead>
+                  <tbody> <!--Cuerpo de la tabla-->
+                      <tr>
+                           <!--Rowspan para no repetir el número 1 fila de abajo-->
+                           <td bgcolor="#008FFF" rowspan="2" align="center"> <font color="white">  1</font></td>
+                           <td bgcolor="#00FFFF" align="center"> <b>Novak Djokovic </b> </td>
+                           <td bgcolor="#00FFFF" rowspan="2" align="center">11740</td>
+                      </tr>
+                      <tr>
+                           <td align="center"> <i>Servia </i> </td>
+                      </tr>
+                      <tr>
+                         <!--Rowspan para no repetir el número 2 fila de abajo-->
+                         <td bgcolor="#008FFF" rowspan="2" align="center"><font color="white">2</font></td>
+                         <td bgcolor="#00FFFF" align="center"> <b>Rafael Nadal </b></td> 
+                         <td bgcolor="#00FFFF" rowspan="2" align="center">9850</td>
+                      </tr>
+                      <tr>
+                           <td align="center"><i>España</i></td>
+                      </tr>
+                      <tr>
+                         <!--Rowspan para no repetir el número 3 fila de abajo-->
+                         <td bgcolor="#008FFF" rowspan="2" align="center"><font color="white">3</font></td>
+                         <td bgcolor="#00FFFF" align="center"> <b>Dominic Thiem </b></td>
+                         <td bgcolor="#00FFFF" rowspan="2" align="center">9125</td>
+                      </tr>
+                      <tr>
+                         <td align="center"><i>Austria</i></td>
+                      </tr>
+                      <tr>
+                         <!--Rowspan para no repetir el número 4 fila de abajo-->
+                         <td bgcolor="#008FFF" rowspan="2" align="center"><font color="white">4</font></td>
+                         <td bgcolor="#00FFFF" align="center"> <b>Roger Federer </b></td>
+                         <td bgcolor="#00FFFF" rowspan="2" align="center">6630</td>
+                      </tr>
+                      <tr>
+                         <td align="center"><i>Suiza</i></td>
+                      </tr>
+                      <tr>
+                         <!--Rowspan para no repetir el número 5 fila de abajo-->
+                         <td bgcolor="#008FFF" rowspan="2" align="center"><font color="white">5</font></td>
+                         <td bgcolor="#00FFFF" align="center"> <b>Stefanos Tsitsipas </b></td>
+                         <td bgcolor="#00FFFF" rowspan="2" align="center">5925</td>
+                      </tr>
+                      <tr>
+                         <td align="center"><i>Grecia</i></td>
+                      </tr>
+                  </tbody>
+            </table>
+            <section> 
+            <nav> 
+               <!--Aquí corresponde el NAV-->
+               <ol>
+                 <li><a class="menu_link" href="#NovakD"> Novak Djokovic </a> </li>
+                 <li><a class="menu_link" href="#RafaelN"> Rafael Nadal </a> </li>
+                 <li><a class="menu_link" href="#DominicT"> Dominic Thiem </a> </li>
+                 <li><a class="menu_link" href="#RogerF"> Roger Federer </a> </li>
+                 <li><a class="menu_link" href="#StefanosT"> Stefanos Tsitsipas</a> </li>
+               </ol>
+            </nav>               
+               <!--indique la carga de un jugador nuevo-->
+               <center><a href="formulario.html"> Para cargar un nuevo jugador, por favor haga clic aquí</a></center>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <!-- Aquí va un ancla para Djokovic -->
+               <article id="NovakD">
+                  <!-- Info sobre Djokovic -->
+                  <h2> Características de Novak Djokovic - 1ero. en el Ranking ATP</h2>
+                  <img src="imagenes/Novak Djokovic.jpg" alt="Novak Djokovic" style="width:30%">
+                  <audio controls>
+                     <source src="mp3/01-novak-djokovic_player-name.mp3">
+                   </audio>
+                   <figure>
+                     <a href="https://es.wikipedia.org/wiki/Serbia"> <img src="imagenes/Bandera de Serbia.jpg" alt="Belgrado" style="width:15%"> </a>
+                     <figcaption>Serbia</figcaption>
+                   </figure>
+                  <p>> Lugar de Nacimiento: Belgrado, Serbia  </p>
+                  <p>> Edad: 33 años. </p>
+                  <p>> Altura: 188 cm. </p>
+                  <p>> Peso: 77 kg. </p>
+                  <p>> Juego:	Diestro, Dos Manos Reves. </p>
+               </article>   
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <!-- Aquí va un ancla para Nadal --> 
+               <article id="RafaelN"> 
+                  <!-- Info sobre Nadal --> 
+                  <h2> Características de Rafael Nadal - 2do. en el Ranking ATP</h2>
+                  <img src="imagenes/Rafael Nadal.jpg" alt="Rafael Nadal" style="width:27%">
+                  <audio controls>
+                     <source src="mp3/02-rafael-nadal_player-name.mp3">
+                   </audio>
+                   <figure>
+                     <a href="https://es.wikipedia.org/wiki/Espa%C3%B1a"><img src="imagenes/Bandera de España.jpg" alt="España" style="width:15%"> </a>
+                     <figcaption>España</figcaption>
+                   </figure>
+                   <p>> Lugar de Nacimiento: Manacor, Mallorca, España  </p>
+                   <p>> Edad: 34 años. </p>
+                   <p>> Altura: 185 cm. </p>
+                   <p>> Peso: 85 kg. </p>
+                   <p>> Juego: Zurdo, Dos Manos Reves. </p>
+               </article>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <!-- Aquí va un ancla para Thiem -->  
+               <article id="DominicT">
+                  <!-- Info sobre Thiem --> 
+                  <h2> Características de Dominic Thiem - 3ero. en el Ranking ATP</h2>
+                  <img src="imagenes/Dominic Thiem.jpg" alt="Dominic Thiem" style="width:30%">
+                  <audio controls>
+                     <source src="mp3/03-dominic_thiem_v2_player-name.mp3">
+                   </audio>
+                   <figure>
+                     <a href="https://es.wikipedia.org/wiki/Austria"><img src="imagenes/Bandera de Austria.jpg" alt="Austria" style="width:15%"> </a>
+                     <figcaption>Austria</figcaption>
+                   </figure>
+                   <p>> Lugar de Nacimiento: Wiener Neustadt, Austria  </p>
+                   <p>> Edad: 27 años. </p>
+                   <p>> Altura: 185 cm. </p>
+                   <p>> Peso: 79 kg. </p>
+                   <p>> Juego: Diestro, Una Mano Reves. </p>
+               </article>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <!-- Aquí va un ancla para Federer --> 
+               <article id="RogerF">
+                  <!-- Info sobre Federer -->
+                  <h2> Características de Roger Federer - 4to. en el Ranking ATP</h2>
+                  <img src="imagenes/Roger Federer.jpg" alt="Roger Federer" style="width:27%">
+                  <audio controls>
+                     <source src="mp3/04-roger-federer_player-name.mp3">
+                  </audio>
+                   <figure>
+                     <a href="https://es.wikipedia.org/wiki/Suiza"><img src="imagenes/Bandera de Suiza.jpg" alt="Suiza" style="width:15%"> </a>
+                     <figcaption>Suiza</figcaption>
+                   </figure>
+                   <p>> Lugar de Nacimiento: Basilea, Suiza  </p>
+                   <p>> Edad: 39 años. </p>
+                   <p>> Altura: 185 cm. </p>
+                   <p>> Peso: 85 kg. </p>
+                   <p>> Juego: Diestro, Una Mano Reves. </p>
+               </article>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <!-- Aquí va un ancla para Tsitsipas --> 
+               <article id="StefanosT">
+                  <!-- Info sobre Tsitsipas -->
+                  <h2> Características de Stefanos Tsitsipas - 5to. en el Ranking ATP</h2>
+                  <img src="imagenes/Stefanos Tsitsipas.jpg" alt="Stefanos Tsitsipas" style="width:27%">
+                  <audio controls>
+                     <source src="mp3/05-stefanos-tsitsipas-player-name.mp3">
+                     Your browser does not support the audio tag.
+                   </audio>
+                   <figure>
+                     <a href="https://es.wikipedia.org/wiki/Grecia"><img src="imagenes/Bandera de Grecia.jpg" alt="Suiza" style="width:15%"> </a>
+                     <figcaption>Grecia</figcaption>
+                   </figure>
+                   <p>> Lugar de Nacimiento: Atenas, Grecia  </p>
+                   <p>> Edad: 22 años. </p>
+                   <p>> Altura: 193 cm. </p>
+                   <p>> Peso: 89 kg. </p>
+                   <p>> Juego: Diestro, Una Mano Reves. </p>
+               </article>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            </section> 
+         </main>
+       <footer> <!--Aquí corresponde el FOOTER--> </footer>
+    </body>
+</html>

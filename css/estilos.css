@@ -1,0 +1,66 @@
+header{
+    color: rgb(255, 0, 200);
+    text-align: center;
+    background-color: rgb(53, 27, 53);
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+a{
+    background-color: cadetblue;
+    transition: background-color .5s;
+}
+a:hover{
+    background-color: gold;
+}
+main{
+    background-color: cadetblue;
+}
+
+tr:nth-last-child(2n+1){
+    background-color: rgb(135, 187, 189);
+}
+  
+table{
+    border-collapse: collapse;
+    width:80%;
+    margin:0 auto;
+}
+  
+td{
+    border: 1px solid #000;
+    text-align:center;
+    padding:0.5rem;
+}
+nav > ol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    background-color: salmon;
+}
+img{
+    display:block;
+    margin:auto;
+}
+audio{
+    display:block;
+    margin:auto;
+}
+figcaption{
+    text-align: center;
+ /*    text-decoration: springgreen; */
+}
+caption{
+    color:brown;    
+}
+
+#article{
+    color: red;
+}
+p{
+    text-align: center;
+}
+
